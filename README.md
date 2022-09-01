@@ -4,8 +4,8 @@
   <a href="#">
     <img src="https://avatars.githubusercontent.com/u/110193542?s=96&v=4" alt="Logo" width="80" height="80">
   </a>
-  <h3 align="center">Virtualground Marketplace <span href="https://www.virtualground.it/">🔗</span></h3>
- 
+  <h3 align="center">Virtualground Marketplace</h3>
+  <a href="https://www.virtualground.it/">Link</a> 
 </div>
 
 <!-- ABOUT -->
