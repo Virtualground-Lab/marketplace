@@ -9,7 +9,6 @@
     Virtualground Marketplace
   </p>
   <a href="https://www.virtualground.it/">Link</a> 
- 
 </div>
 
 <!-- ABOUT -->
@@ -107,6 +106,40 @@ Emitted when the fee for listing was changed.
 ```solidity
 event ChangedPublicationFee(
   uint256 publicationFee
+);
+```
+
+**ChangedFeesCollectorCutPerMillion**
+
+```solidity
+event ChangedFeesCollectorCutPerMillion(
+  uint256 feesCollectorCutPerMillion
+);
+```
+
+**ChangedRoyaltiesCutPerMillion**
+
+```solidity
+event ChangedRoyaltiesCutPerMillion(
+  uint256 royaltiesCutPerMillion
+);
+```
+
+**FeesCollectorSet**
+
+```solidity
+event FeesCollectorSet(
+  address indexed oldFeesCollector,
+  address indexed newFeesCollector
+);
+```
+
+**RoyaltiesManagerSet**
+
+```solidity
+event RoyaltiesManagerSet(
+  IRoyaltiesManager index oldRoyaltiesManager,
+  IRoyaltiesManager index newRoyaltiesManager
 );
 ```
 
