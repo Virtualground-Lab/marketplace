@@ -4,10 +4,7 @@
   <a href="#">
     <img src="https://avatars.githubusercontent.com/u/110193542?s=96&v=4" alt="Logo" width="80" height="80">
   </a>
-  <h3 align="center">VGR</h3>
-  <p align="center">
-    Virtualground Marketplace
-  </p>
+  <h3 align="center">Virtualground Marketplace</h3>
   <a href="https://www.virtualground.it/">Link</a> 
 </div>
 
@@ -111,6 +108,8 @@ event ChangedPublicationFee(
 
 **ChangedFeesCollectorCutPerMillion**
 
+Emitted when
+
 ```solidity
 event ChangedFeesCollectorCutPerMillion(
   uint256 feesCollectorCutPerMillion
@@ -142,6 +141,10 @@ event RoyaltiesManagerSet(
   IRoyaltiesManager index newRoyaltiesManager
 );
 ```
+
+#### Functions
+
+[TO BE ADDED...]
 
 <!-- CONTRIBUTING -->
 

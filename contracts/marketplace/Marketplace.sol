@@ -99,7 +99,7 @@ contract Marketplace is Ownable, Pausable, NativeMetaTransaction {
         uint256 _royaltiesCutPerMillion
     ) {
         // EIP712 init
-        _initializeEIP712("Virtualground Marketplace", "2");
+        _initializeEIP712("Virtualground Marketplace", "1");
 
         // Address init
         setFeesCollector(_feesCollector);
